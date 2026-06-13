@@ -1,0 +1,62 @@
+Galaxy Dataset Key - SRR29831631 Genome Analysis
+
+History name:
+GCC2026
+
+Main input:
+5 = SRR29831631_paired
+26 = SRR29831631_1.fastq.gz
+27 = SRR29831631_2.fastq.gz
+
+Final read preprocessing / QC:
+65 = SRR29831631_uncompressed_paired
+66 = final fastp paired-end output from collection 65
+67 = fastp HTML report from collection 65
+68 = fastp JSON report from collection 65
+77 = FastQC webpage on collection 66
+78 = FastQC raw data on collection 66
+
+Assembly:
+73 = SPAdes assembly graph
+74 = SPAdes assembly graph with scaffolds
+75 = SPAdes contigs
+76 = SPAdes scaffolds
+83 = final filtered scaffolds, generated from dataset 76
+
+Assembly quality:
+84 = QUAST HTML report on dataset 83
+159 = CheckM2 quality report on dataset 83
+
+Annotation:
+85 = Prokka GFF on dataset 83
+87 = Prokka FNA on dataset 83
+88 = Prokka FAA on dataset 83
+89 = Prokka FFN on dataset 83
+93 = Prokka TSV on dataset 83
+95 = Prokka TXT summary on dataset 83
+96 = Prokka log on dataset 83
+
+Toxin / bont screening:
+97 = ABRicate report on dataset 83
+98 = bont_refs.fasta
+99 = megablast of bont_refs.fasta vs filtered scaffold assembly
+100 = blastn of bont_refs.fasta vs filtered scaffold assembly
+
+ANI / PCA:
+132 = clostridium_refs reference genome collection
+133 = FastANI output comparing SRR29831631 against reference collection 132
+153 = collection_allinall, all-vs-all genome collection
+154 = all-vs-all FastANI output used for ANI matrix, heatmap, and PCA
+
+Genome completeness / rRNA:
+157 = CheckM2 protein files, intermediate output
+158 = CheckM2 tabular DIAMOND output, intermediate output
+159 = CheckM2 quality report, primary output
+162 = Barrnap rRNA GFF on dataset 83
+163 = Barrnap rRNA sequences on dataset 83
+
+Notes:
+Final assembly file saved locally as SRR29831631_filtered_scaffolds.fasta.
+Final fastp report saved locally as fastp_final_report_collection68.json.
+Final PCA was generated on macOS from all-vs-all FastANI output.
+Earlier fastp/FastQC attempts on datasets 30, 31, 43, 46, 63, and 64 were intermediate runs and were not used as the final preprocessing results.

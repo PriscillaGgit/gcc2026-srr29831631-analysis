@@ -1,0 +1,39 @@
+Software Versions - SRR29831631 Genome Analysis
+
+Galaxy workflow
+Platform: Galaxy Europe
+History: GCC2026
+
+Galaxy tools
+FastQC: v0.12.1
+fastp: v1.2.0
+SPAdes: v4.2.0+galaxy0
+Filter FASTA: v2.3
+QUAST: v5.3.0+galaxy1
+Prokka: v1.14.6+galaxy1
+ABRicate: v1.0.1
+NCBI BLAST+ blastn/megablast: v2.16.0+galaxy0
+CheckM2: v1.1.0+galaxy0
+Barrnap: v1.2.2
+FastANI: v1.3
+CARD/RGI: CARD RGI web analysis; criteria = Perfect, Strict, complete genes only
+
+Local visualization - Windows/WSL ANI heatmap
+Python: v3.13.9
+pandas: v2.3.3
+NumPy: v2.3.4
+matplotlib: v3.10.7
+seaborn: v0.13.2
+SciPy: v1.16.2
+
+Local visualization - macOS PCA
+Python: v3.9.6
+pandas: v2.3.3
+NumPy: v2.0.2
+matplotlib: v3.9.4
+scikit-learn: v1.6.1
+
+Notes
+The PCA plot was generated from ani_all_vs_all.tsv using make_pca_simple.py.
+The final assembly was saved locally as SRR29831631_filtered_scaffolds.fasta.
+The final fastp JSON report was saved locally as fastp_final_report_collection68.json.
