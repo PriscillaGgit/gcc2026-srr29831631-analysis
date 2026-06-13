@@ -1,0 +1,24 @@
+Reference Genome Source Notes
+
+Reference genome FASTA files used for ANI heatmap and PCA analyses were downloaded from NCBI Datasets / NCBI Assembly.
+
+The reference panel included representative genomes from:
+- Clostridium botulinum
+- Clostridium sporogenes
+- Clostridium tagluense
+
+These reference genomes were used for:
+- fastANI query-vs-reference comparison
+- all-vs-all fastANI matrix
+- ANI heatmap
+- clustered ANI heatmap
+- PCA of ANI distances
+
+The query genome was the filtered scaffold assembly generated from SRR29831631 and saved locally as:
+SRR29831631_filtered_scaffolds.fasta
+
+Local renamed reference FASTA files are stored in:
+data/reference_genomes/renamed_references/
+
+Exact NCBI assembly accession identifiers are listed in:
+data/raw_accessions/reference_accessions_from_filenames.txt

@@ -1,0 +1,18 @@
+# Raw sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large compressed files
+*.zip
+*.tar
+*.tar.gz
+
+# Mac system files
+.DS_Store
+
+# Archive folders
+archive_do_not_use/
+data/raw_reads/
+data/old_reference_downloads/

@@ -1,0 +1,7 @@
+organism: Clostridium botulinum SRR29831631 
+contigs: 30
+bases: 3984358
+CDS: 3695
+rRNA: 4
+repeat_region: 8
+tRNA: 45
