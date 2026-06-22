@@ -51,6 +51,7 @@ Genome-wide ANI comparisons and absence of a complete `bont` gene support interp
 Raw sequencing data: NCBI SRA SRR29831631  
 Reference genomes: NCBI Datasets / NCBI Assembly  
 Analysis platform: Galaxy Europe
+[Galaxy history: GCC2026](https://usegalaxy.eu/u/priscillagworks/h/gcc2026)
 
 ## Author
 
